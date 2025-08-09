@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Onest:wght@100..900&display=swap");
+
+* {
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+html {
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 18px;
+}
+
+.BGF {
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.gray {
+    color: #7d7d7d;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.main {
+    width: "100%";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.styledtext {
+    font-weight: 600;
+    background: -webkit-linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+}
+
+.modrinth {
+    background: linear-gradient(to right, red, yellow);
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+    color: #1f1f1f;
+    font-weight: 500;
+    background-size: 200% 100%;
+    background-position: left center;
+    transition: background-position 0.4s ease-in-out;
+}
+
+.modrinth:hover {
+    background-position: right center; /* Mueve el gradiente hacia la derecha en hover */
+}
+
+.InstanceButton {
+    display: flex;
+    justify-content: center;
+    height: 42;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    color: #bfbfbf;
+    box-shadow: inset 0 0 0 2px #969696; /* Borde interior */
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.InstanceButton:hover {
+    box-shadow: inset 0 0 0 3.5px #e3e3e3; /* Borde interior */
+    color: #e3e3e3;
+}
