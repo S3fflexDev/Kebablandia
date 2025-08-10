@@ -23,7 +23,7 @@ function Home() {
           <div style={{ height: 25 }}></div>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <a
-              href="https://drive.google.com/file/d/1KqV4RiRGAfeccAizpv-xI6OH-k6N1hb8/view?usp=sharing"
+              href="https://drive.google.com/file/d/1FgImO5ABFH8tBPUtiGDi3IwzMTvXeDKc/view?usp=sharing"
               style={{
                 display: "flex",
                 flexDirection: "row",
