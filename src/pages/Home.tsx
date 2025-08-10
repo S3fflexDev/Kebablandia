@@ -1,7 +1,6 @@
 import "./Home.css";
 import ModrinthLogo from "../assets/ModrinthLogo.tsx";
 import Nav from "../components/Nav.tsx";
-import { IconBackground } from "@tabler/icons-react";
 
 function Home() {
   return (
