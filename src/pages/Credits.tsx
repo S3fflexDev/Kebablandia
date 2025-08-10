@@ -1,4 +1,4 @@
-import "./Credits.css";
+import "./Home.css";
 import Nav from "../components/Nav.tsx";
 
 function Credits() {
