@@ -23,7 +23,7 @@ function Home() {
           <div style={{ height: 25 }}></div>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <a
-              href="https://drive.google.com/file/d/1pIP0Ceh0mzQ-noqvmejN_oyykWSTmZvy/view?usp=sharing"
+              href="https://drive.google.com/file/d/1KqV4RiRGAfeccAizpv-xI6OH-k6N1hb8/view?usp=sharing"
               style={{
                 display: "flex",
                 flexDirection: "row",
@@ -39,13 +39,15 @@ function Home() {
                 <ModrinthLogo />
               </span>
             </a>
-            <div style={{ width: 15 }}></div>
+            {// <div style={{ width: 15 }}></div>}
+            {/*
             <a
               className="InstanceButton"
               href="https://drive.google.com/file/d/1WNBvKD-R-z1APqF5Qfl6clrX0tj8p94P/view?usp=sharing"
             >
               Instance
             </a>
+            */}
           </div>
         </div>
       </body>
