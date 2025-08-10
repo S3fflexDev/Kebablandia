@@ -39,15 +39,13 @@ function Home() {
                 <ModrinthLogo />
               </span>
             </a>
-            {// <div style={{ width: 15 }}></div>}
-            {/*
+            {/*<div style={{ width: 15 }}></div>
             <a
               className="InstanceButton"
               href="https://drive.google.com/file/d/1WNBvKD-R-z1APqF5Qfl6clrX0tj8p94P/view?usp=sharing"
             >
               Instance
-            </a>
-            */}
+            </a>*/}
           </div>
         </div>
       </body>
