@@ -1,18 +1,19 @@
 import Logoimg from "../assets/Logo.png";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
     <nav className="nav">
       <div style={{ width: 120 }}></div>
-      <a href="/" className="BGF gray link">
+      <Link to="/" className="BGF gray link">
         Home
-      </a>
+      </Link>
       <div style={{ width: "100%" }}></div>
       <img src={Logoimg} width={420} />
       <div style={{ width: "100%" }}></div>
-      <a href="/credits" className="BGF gray link">
+      <Link to="/credits" className="BGF gray link">
         Credits
-      </a>
+      </Link>
       <div style={{ width: 120 }}></div>
     </nav>
   );
