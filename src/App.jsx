@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home.tsx";
-import Credits from "./pages/Credits.tsx";
+import Home from "./pages/Home.jsx";
+import Credits from "./pages/Credits.jsx";
 
 // import pages as components
 

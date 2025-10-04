@@ -1,5 +1,5 @@
 import "./Home.css";
-import Nav from "../components/Nav.tsx";
+import Nav from "../components/Nav.jsx";
 
 function Credits() {
   return (
