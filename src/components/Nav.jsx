@@ -9,7 +9,7 @@ function Nav() {
         Home
       </Link>
       <div style={{ width: "100%" }}></div>
-      <img src={Logoimg} width={420} />
+      <img src={Logoimg} className="logo-kebabladia"/>
       <div style={{ width: "100%" }}></div>
       <Link to="/credits" className="BGF gray link">
         Credits

@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Onest:wght@100..900&display=swap");
 
 * {
-    font-family: "Onest", sans-serif;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-    color: white;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box; /* AÑADIDO */
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 html {
@@ -36,7 +42,7 @@ html {
 }
 
 .main {
-    width: "100%";
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,4 +94,33 @@ html {
 
 .profile {
     font-size: 20px;
+}
+
+.principal-title {
+    font-size: 52px;
+    width: fit-content;
+}
+
+nav img {
+    width: 420px;
+}
+
+/*font-size: 24px;*/
+@media (max-width: 768px) {
+  .principal-title {
+    font-size: 24px;
+    width: fit-content;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  nav div {
+    display: none;
+  }
+
+  nav img {
+    width: 340px;
+  }
 }

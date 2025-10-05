@@ -12,13 +12,11 @@ function Home() {
           <h1
             style={{
               fontWeight: 500,
-              fontSize: 52,
               textAlign: "center",
-              width: 927,
-            }}
+            }} className="principal-title"
           >
-            Disfruta de una gran serie de
-            <span className="styledtext"> Minecraft</span>
+            Disfruta de una gran serie de<br></br>
+            <span className="styledtext">Minecraft</span>
           </h1>
           <div style={{ height: 25 }}></div>
           <div style={{ display: "flex", flexDirection: "row" }}>
