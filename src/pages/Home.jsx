@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Nav />
-      <body>
+      <div>
         <div style={{ height: 25 }}></div>
         <div className="main">
           <h1
@@ -23,7 +23,7 @@ function Home() {
           <div style={{ height: 25 }}></div>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <a
-              href="https://drive.google.com/file/d/1FgImO5ABFH8tBPUtiGDi3IwzMTvXeDKc/view?usp=sharing"
+              href="/form"
               style={{
                 display: "flex",
                 flexDirection: "row",
@@ -33,11 +33,7 @@ function Home() {
               }}
               className="modrinth link"
             >
-              Download for modrinth
-              <div style={{ width: 5 }}></div>
-              <span>
-                <ModrinthLogo />
-              </span>
+              Request to enter
             </a>
             {/*<div style={{ width: 15 }}></div>
             <a
@@ -48,7 +44,7 @@ function Home() {
             </a>*/}
           </div>
         </div>
-      </body>
+      </div>
     </>
   );
 }

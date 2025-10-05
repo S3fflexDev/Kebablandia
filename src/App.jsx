@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import Credits from "./pages/Credits.jsx";
 
 // import pages as components
+import Home from "./pages/Home.jsx";
+import Credits from "./pages/Credits.jsx";
+import Form from './pages/Form.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="/credits" element={<Credits />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </BrowserRouter>
   );
